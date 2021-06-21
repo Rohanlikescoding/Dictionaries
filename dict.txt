@@ -1,0 +1,21 @@
+a1 = input("what is your status ")
+a2 = int(input("enter number of tries you guessed "))
+a3 = input("who is your favorite super hero ")
+inputs = {}
+inputs["first"] = a1
+inputs["second"] = a2
+inputs["third"] = a3
+print(inputs)
+cars = {}
+area = {}
+
+cars["response1"] = input("what is your first favorite car option ")
+cars["response2"] = input("what is your second favorite car option ")
+cars["response3"] = input("what is your third favorite car option ")
+cars["response4"] = input("what is your car weight ")
+
+area["one"] = input("what type of area do you prefer ")
+area["two"] = input("how many years do you plan to live there for ")
+
+com = [inputs,cars,area]
+print(com)
